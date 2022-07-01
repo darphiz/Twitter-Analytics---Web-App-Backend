@@ -1,0 +1,4 @@
+python manage.py dumpdatautf8 --output data.json
+
+# In another database
+python manage.py loaddatautf8 data.json
